@@ -17,7 +17,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });
@@ -40,19 +39,16 @@ return new class extends Migration
         User::create([
             'name' => 'Teszt Elek',
             'email'=> 'teszt1@gmail.com',
-            'password'=> 'aaa',
             
         ]);
         User::create([
             'name' => 'Teszt Hanna',
             'email'=> 'teszt2@gmail.com',
-            'password'=> 'aaa',
             
         ]);
         User::create([
             'name' => 'Teszt Gergő',
             'email'=> 'teszt3@gmail.com',
-            'password'=> 'aaa',
             
         ]);
 
