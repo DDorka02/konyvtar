@@ -38,7 +38,7 @@ class CopyController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $record = new Copy();
+        $record = Copy::find($id);
         $record->fill($request->all());
         $record->save();
     }

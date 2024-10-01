@@ -38,7 +38,7 @@ class BookController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $record = new Book();
+        $record = Book::find($id);
         $record->fill($request->all());
         $record->save();
     }

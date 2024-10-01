@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Book;
 use App\Models\Copy;
+use App\Models\Lending;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -25,5 +26,7 @@ class DatabaseSeeder extends Seeder
         Book::factory(10)->create();
 
         Copy::factory(10)->create();
+
+        Lending::factory(10)->create();
     }
 }

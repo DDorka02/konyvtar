@@ -40,7 +40,7 @@ class USerController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $record = new User();
+        $record = User::find($id);
         $record->fill($request->all());
         $record->save();
     }
