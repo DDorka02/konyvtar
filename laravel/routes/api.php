@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\CopyController;
+use App\Http\Controllers\FileController;
 use App\Http\Controllers\LendingController;
 use App\Http\Controllers\UserController;
 use Illuminate\Http\Request;
@@ -62,3 +63,7 @@ Route::post('/lending', [LendingController::class, 'store']);
 Route::patch('/lending/{user_id}/{copy_id}/{start}', [LendingController::class, 'update']);
 
 Route::delete('/lending/{user_id}/{copy_id}/{start}', [LendingController::class, 'destroy']);
+
+
+Route::get('file-upload', [FileController::class, 'index']);
+Route::post('file-upload', [FileController::class, 'store'])->name('file.store');
