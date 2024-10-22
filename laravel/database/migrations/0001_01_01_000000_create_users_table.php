@@ -3,6 +3,7 @@
 use App\Models\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
@@ -16,8 +17,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('password') ->default('aaa');
-            $table->boolean('permission') ->default(1);
+            $table->string('password');
+            $table->boolean('role') ->default(1);
             $table->rememberToken();
             $table->timestamps();
         });
@@ -38,18 +39,16 @@ return new class extends Migration
         });
 
         User::create([
-            'name' => 'Teszt Elek',
-            'email'=> 'teszt1@gmail.com',
+            'name' => 'Admin',
+            'email'=> 'admin@admin.com',
+            'password' => Hash::make('admin12345'),
+            'role' => 0
             
         ]);
         User::create([
-            'name' => 'Teszt Hanna',
-            'email'=> 'teszt2@gmail.com',
-            
-        ]);
-        User::create([
-            'name' => 'Teszt Gergő',
-            'email'=> 'teszt3@gmail.com',
+            'name' => 'User',
+            'email'=> 'user@user.com',
+            'password' => Hash::make('user12345')
             
         ]);
 
