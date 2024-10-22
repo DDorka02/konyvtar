@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 Route::post('/register',[RegisteredUserController::class, 'store']);
 Route::post('/login',[AuthenticatedSessionController::class, 'store']);
 Route::apiResource('users', USerController::class);
-Route::patch('update-password/{id}'), [USerController::class,"updatePassword"];
+Route::patch('update-password/{id}', [USerController::class,"updatePassword"]);
 
 //autentikált utvonal
 Route::middleware(['auth:sanctum'])
