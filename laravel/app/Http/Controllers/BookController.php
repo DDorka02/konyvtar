@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Book;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class BookController extends Controller
 {
@@ -50,4 +51,15 @@ class BookController extends Controller
     {
         Book::find($id)->delete;
     }
+
+        public function bookWithCopies(){
+        //$user = Auth::user();	//bejelentkezett felhasználó
+        return Book::with('copies')
+        //->where('book_id','=',$user->id)
+        ->get();
+        ;
+    }
+
+
+
 }

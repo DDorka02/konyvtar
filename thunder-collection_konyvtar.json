@@ -1,0 +1,599 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "konyvtar",
+    "collectionId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+    "dateExported": "2024-11-26T09:36:37.053Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "287a1d0a-41f1-441b-b4bd-3628f1606f5f",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getUser",
+            "url": "user/11",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-09-24T12:14:43.113Z",
+            "modified": "2024-09-24T13:46:58.370Z",
+            "headers": []
+        },
+        {
+            "_id": "2bc16a0e-9cdf-45f4-9a0f-1cd0c7cf0077",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "lendingsCount",
+            "url": "lendings-count",
+            "method": "GET",
+            "sortNum": 22500,
+            "created": "2024-11-12T13:55:55.378Z",
+            "modified": "2024-11-12T13:59:01.954Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|AhmjqEqAj26ButqvJFEKrDWjIxBWQRtwiaEpOyZo06a0d80e"
+            }
+        },
+        {
+            "_id": "a40e4452-c144-413c-9b11-19d8dbb0ae04",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "aktivelending",
+            "url": "aktiv-lendin-count",
+            "method": "GET",
+            "sortNum": 23750,
+            "created": "2024-11-12T14:08:43.160Z",
+            "modified": "2024-11-12T14:09:14.261Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|AhmjqEqAj26ButqvJFEKrDWjIxBWQRtwiaEpOyZo06a0d80e"
+            }
+        },
+        {
+            "_id": "aeabf9b8-6b96-4750-9a85-cc6dc4c39212",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "leddingWhitCopies",
+            "url": "lendings-copies",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-11-05T13:03:16.613Z",
+            "modified": "2024-11-05T14:48:16.912Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|DADdEoPdoqFr850rP9tmPXC837WNtZSzeUgM4BJzc4690cd8"
+            }
+        },
+        {
+            "_id": "832c06df-e6ae-4510-afdf-b0d485ceb929",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getUsers",
+            "url": "users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-24T12:16:27.955Z",
+            "modified": "2024-09-24T12:17:15.736Z",
+            "headers": []
+        },
+        {
+            "_id": "6b5387fc-5b56-4052-ab64-39713a874a75",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "special",
+            "url": "specificDate",
+            "method": "GET",
+            "sortNum": 32500,
+            "created": "2024-11-05T14:48:32.262Z",
+            "modified": "2024-11-05T14:50:23.328Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|pTtmRZw34kLtYIc6kG4lgnUEX92dRiz4bB0xT4nX50e969ee"
+            }
+        },
+        {
+            "_id": "cc4ac88f-f956-4902-ae91-d8b914b4b034",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "bookelendingcount",
+            "url": "lending-book-count",
+            "method": "GET",
+            "sortNum": 33750,
+            "created": "2024-11-12T14:16:02.944Z",
+            "modified": "2024-11-12T14:16:32.427Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|AhmjqEqAj26ButqvJFEKrDWjIxBWQRtwiaEpOyZo06a0d80e"
+            }
+        },
+        {
+            "_id": "9aab8a2f-d08d-44e6-8af5-ddbdb4caae91",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "dateCopy",
+            "url": "specificDate",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-11-05T14:43:53.758Z",
+            "modified": "2024-11-05T14:49:24.074Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|pTtmRZw34kLtYIc6kG4lgnUEX92dRiz4bB0xT4nX50e969ee"
+            }
+        },
+        {
+            "_id": "ddbac67e-e2a7-412f-a986-e1691c4122af",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "bookdata",
+            "url": "lendin-books-data",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-11-12T14:29:39.379Z",
+            "modified": "2024-11-12T14:30:09.410Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|DADdEoPdoqFr850rP9tmPXC837WNtZSzeUgM4BJzc4690cd8"
+            }
+        },
+        {
+            "_id": "9c3e3632-62c7-4ac7-94bf-c184837f8524",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postuser",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-09-24T12:25:55.805Z",
+            "modified": "2024-10-22T12:49:32.670Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"admin\",\n  \"email\": \"admin@admin.com\",\n  \"password\": \"admin12345\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cfa3317e-55ad-494a-a739-a5d4b10a980b",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "putuser",
+            "url": "user/1",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-09-24T12:52:24.265Z",
+            "modified": "2024-09-24T14:20:50.925Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Teszt Kálmán\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5554a048-cdad-49e3-9c89-8f28bc0d5c44",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "loginUser",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-10-22T12:46:22.302Z",
+            "modified": "2024-11-12T13:58:14.436Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n            \"name\":\"Dr. Lily Powlowski\",\n            \"email\": \"metz.jarred@example.org\",\n            \"password\" :\"abcd12345\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "787b01bc-4307-4cff-b943-7ad58fa201c0",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "adminUser",
+            "url": "admin/users",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-10-22T12:50:37.151Z",
+            "modified": "2024-10-22T14:03:58.372Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|gVFYIzleLEsTtjHubvW7J0T2saVUm1NVLTOjmLAaefdac6be"
+            }
+        },
+        {
+            "_id": "080cde85-4bf1-4995-b9ca-659d0f25adcf",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "deleteuser",
+            "url": "user/13",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-09-24T12:52:42.553Z",
+            "modified": "2024-09-24T14:20:21.325Z",
+            "headers": []
+        },
+        {
+            "_id": "bf955c81-d90b-4f55-80cb-091bc737cf22",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "logout",
+            "url": "logout",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-10-22T14:03:11.417Z",
+            "modified": "2024-10-22T14:03:45.825Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|gVFYIzleLEsTtjHubvW7J0T2saVUm1NVLTOjmLAaefdac6be"
+            }
+        },
+        {
+            "_id": "286414b1-0adc-4f84-af14-34c6f5af6d19",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getBook",
+            "url": "book/1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-09-24T14:06:25.083Z",
+            "modified": "2024-09-24T14:08:25.983Z",
+            "headers": []
+        },
+        {
+            "_id": "0e2aa4b0-ddb2-4d49-8455-d6e48017224c",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getBooks",
+            "url": "books",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-09-24T14:07:54.521Z",
+            "modified": "2024-09-24T14:08:11.113Z",
+            "headers": []
+        },
+        {
+            "_id": "beb60300-9d19-42fe-955d-e67900a62cfd",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getCopy",
+            "url": "copy/1",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-09-24T14:08:59.434Z",
+            "modified": "2024-09-24T14:12:39.106Z",
+            "headers": []
+        },
+        {
+            "_id": "fcd1efe0-e16d-434f-a295-7c644efff294",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postBook",
+            "url": "book",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-09-24T14:12:46.676Z",
+            "modified": "2024-09-24T14:15:34.027Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"author\": \"János\",\n  \"title\": \"És\",\n  \"pieces\": 1000\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4b4f1f5c-1f35-43db-9b71-50cfbd36c42d",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "putBook",
+            "url": "book",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-09-24T14:24:19.832Z",
+            "modified": "2024-09-24T14:27:50.220Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 1,\n  \"title\": \"Éska\",\n  \"pieces\": 23000\n  \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f65a8f5b-0884-4e03-a7e5-ac42544594c6",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "poszUser",
+            "url": "users",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-10-22T13:36:12.092Z",
+            "modified": "2024-10-22T13:38:09.831Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"user5\",\r\n  \"email\": \"user@uder.com\",\r\n  \"password\" :\"123456user\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "78cbd92d-e151-42bb-b664-049d79725f56",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getCopys",
+            "url": "copies",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-09-24T14:10:58.864Z",
+            "modified": "2024-09-24T14:12:14.777Z",
+            "headers": []
+        },
+        {
+            "_id": "95c144a4-8afd-4ce8-a14e-a9137f94c798",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "deleteUser",
+            "url": "users/3",
+            "method": "DELETE",
+            "sortNum": 100000,
+            "created": "2024-10-22T13:38:26.526Z",
+            "modified": "2024-10-22T13:39:38.529Z",
+            "headers": []
+        },
+        {
+            "_id": "9e889498-0679-47d1-a882-f13c6cfd77f3",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "updatePassword",
+            "url": "update-password/3?password=user54321",
+            "method": "PATCH",
+            "sortNum": 100000,
+            "created": "2024-10-22T13:45:11.555Z",
+            "modified": "2024-10-22T14:04:46.827Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "password",
+                    "value": "user54321",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "762b98dd-9db5-4aa2-9ce3-9555b25f1d8a",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postCopy",
+            "url": "copy",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-09-24T14:17:46.406Z",
+            "modified": "2024-09-24T14:19:22.975Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\": 10,\n  \"book_id\": 13\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "70e6d33c-7eb5-4b07-9e59-74b45e911b47",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postCopy Copy",
+            "url": "copy",
+            "method": "PUT",
+            "sortNum": 120000,
+            "created": "2024-09-24T14:24:47.103Z",
+            "modified": "2024-09-24T14:24:55.391Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\": 10,\n  \"book_id\": 13\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "afa514f3-8acc-49ca-9962-d2308556fe51",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "deleteCopy",
+            "url": "copy",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-09-24T14:25:34.345Z",
+            "modified": "2024-09-24T14:26:27.733Z",
+            "headers": []
+        },
+        {
+            "_id": "77950509-9e8a-472a-8b71-61002581a0eb",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getLending",
+            "url": "lending/2/7/2010-11-06",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-10-01T13:44:03.333Z",
+            "modified": "2024-10-01T14:21:03.259Z",
+            "headers": []
+        },
+        {
+            "_id": "fa2ca846-e12a-44be-a312-9f337def5258",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "getLendings",
+            "url": "lendings",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-10-01T13:46:06.104Z",
+            "modified": "2024-10-01T13:46:21.912Z",
+            "headers": []
+        },
+        {
+            "_id": "c61fe2fc-ce3d-42a5-b99f-ca30fb555369",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postLending",
+            "url": "lending",
+            "method": "POST",
+            "sortNum": 160000,
+            "created": "2024-10-01T13:58:27.418Z",
+            "modified": "2024-10-01T14:03:51.201Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"user_id\":1,\n  \"copy_id\":6,\n  \"start\":\"2023-01-21\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "261181a0-f726-4c6c-84dc-bcb98f215c8f",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "patchLending",
+            "url": "lending/1/5/1997-12-09?warning=3&end=2024-10-15",
+            "method": "PATCH",
+            "sortNum": 165000,
+            "created": "2024-10-15T11:42:01.921Z",
+            "modified": "2024-10-15T12:00:22.382Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "warning",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "end",
+                    "value": "2024-10-15",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "e68a8e21-9bd5-45a5-a884-34397b8d868b",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "deleteLending",
+            "url": "lending/2/7/2010-11-06",
+            "method": "DELETE",
+            "sortNum": 170000,
+            "created": "2024-10-01T14:04:17.135Z",
+            "modified": "2024-10-01T14:21:33.234Z",
+            "headers": []
+        },
+        {
+            "_id": "eacf5567-2dfb-4c29-acb1-40c43617c2bb",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "patchuser",
+            "url": "admin/users/1?email=admin@akk.hu&name=Admin",
+            "method": "PATCH",
+            "sortNum": 175000,
+            "created": "2024-11-12T13:07:58.045Z",
+            "modified": "2024-11-12T13:10:20.656Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "email",
+                    "value": "admin@akk.hu",
+                    "isPath": false
+                },
+                {
+                    "name": "name",
+                    "value": "Admin",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|UUHEKr3ps1HfzazaDT60AKhqcA4c7XzdiEM5XWap8448e4d6"
+            }
+        },
+        {
+            "_id": "c6997e29-1a7e-413a-b05a-3653b2862ffd",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "postUser",
+            "url": "admin/users?name=warehouseman1&email=warehouseman1@akk.hu&password=warehouseman12345",
+            "method": "POST",
+            "sortNum": 185000,
+            "created": "2024-11-12T13:10:34.216Z",
+            "modified": "2024-11-12T13:12:21.866Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "name",
+                    "value": "warehouseman1",
+                    "isPath": false
+                },
+                {
+                    "name": "email",
+                    "value": "warehouseman1@akk.hu",
+                    "isPath": false
+                },
+                {
+                    "name": "password",
+                    "value": "warehouseman12345",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|UUHEKr3ps1HfzazaDT60AKhqcA4c7XzdiEM5XWap8448e4d6"
+            }
+        },
+        {
+            "_id": "09a843ac-e0d2-4220-a2b2-e5e8ee7edd87",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "deleteUse",
+            "url": "admin/users/23",
+            "method": "DELETE",
+            "sortNum": 195000,
+            "created": "2024-11-12T13:15:13.665Z",
+            "modified": "2024-11-12T13:16:20.702Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|UUHEKr3ps1HfzazaDT60AKhqcA4c7XzdiEM5XWap8448e4d6"
+            }
+        },
+        {
+            "_id": "d793495a-265f-489c-a0cb-805e45dc7e2f",
+            "colId": "0bb31691-0510-4666-bb7e-ef2eb4b30341",
+            "containerId": "",
+            "name": "bookcopies",
+            "url": "books-copies",
+            "method": "DELETE",
+            "sortNum": 205000,
+            "created": "2024-11-12T13:17:13.577Z",
+            "modified": "2024-11-12T13:19:08.241Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "1|UUHEKr3ps1HfzazaDT60AKhqcA4c7XzdiEM5XWap8448e4d6"
+            }
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "Accept",
+                "value": "application/json"
+            }
+        ],
+        "options": {
+            "baseUrl": "http://localhost:8000/api/"
+        }
+    },
+    "ref": "9_asazmYUkd93ba_-vvf-y5aISQCX1iX760IBBhaYYdo6WIiTLRd04ns9og9220XHp5ZcQTnOindohYAog_5NQ"
+}
